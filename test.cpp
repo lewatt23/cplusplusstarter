@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-  cout << "Hello World!"<< endl;
-  return 0;
-} 
+int main()
+{
+    int age = 25;
+
+    cout << "age" << &age << endl;
+
+    return 0;
+}
