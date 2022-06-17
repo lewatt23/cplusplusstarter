@@ -1,11 +1,10 @@
 #include <iostream>
+#include "sum.h"
+using namespace ops;
 using namespace std;
 
 int main()
 {
-    int age = 25;
-
-    cout << "age" << &age << endl;
-
+    cout << ops::sum(3, 2);
     return 0;
 }
