@@ -1,12 +1,20 @@
 #include <iostream>
-#include <string>
+#include <functional>
 using namespace std;
+
+function<int(int)> createSumFunc(int n)
+{
+    return [n](int x)
+    {
+        return x + n;
+    };
+}
 
 int main()
 {
-    string age = "23";
+    function sum5 = createSumFunc(5);
 
-    cout << "age" << age.length() << endl;
+    cout << sum5(4) << endl;
 
     return 0;
 }
