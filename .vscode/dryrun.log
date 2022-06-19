@@ -1,0 +1,22 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/hardpro/Documents/cplusplusTuto'
+/usr/local/Cellar/cmake/3.23.2/bin/cmake -S/Users/hardpro/Documents/cplusplusTuto -B/Users/hardpro/Documents/cplusplusTuto --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_progress_start /Users/hardpro/Documents/cplusplusTuto/CMakeFiles /Users/hardpro/Documents/cplusplusTuto//CMakeFiles/progress.marks
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -s -f CMakeFiles/Makefile2 all
+make[1]: Entering directory `/Users/hardpro/Documents/cplusplusTuto'
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -s -f CMakeFiles/myProject,.dir/build.make CMakeFiles/myProject,.dir/depend
+make[2]: Entering directory `/Users/hardpro/Documents/cplusplusTuto'
+cd /Users/hardpro/Documents/cplusplusTuto && /usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_depends "Unix Makefiles" /Users/hardpro/Documents/cplusplusTuto /Users/hardpro/Documents/cplusplusTuto /Users/hardpro/Documents/cplusplusTuto /Users/hardpro/Documents/cplusplusTuto /Users/hardpro/Documents/cplusplusTuto/CMakeFiles/myProject,.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/Users/hardpro/Documents/cplusplusTuto'
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -s -f CMakeFiles/myProject,.dir/build.make CMakeFiles/myProject,.dir/build
+make[2]: Entering directory `/Users/hardpro/Documents/cplusplusTuto'
+/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/Users/hardpro/Documents/cplusplusTuto/CMakeFiles --progress-num=1 "Building CXX object CMakeFiles/myProject,.dir/test.cpp.o"
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/hardpro/Documents/cplusplusTuto -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++17 -MD -MT CMakeFiles/myProject,.dir/test.cpp.o -MF CMakeFiles/myProject,.dir/test.cpp.o.d -o CMakeFiles/myProject,.dir/test.cpp.o -c /Users/hardpro/Documents/cplusplusTuto/test.cpp
+/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/Users/hardpro/Documents/cplusplusTuto/CMakeFiles --progress-num=2 "Linking CXX executable myProject,"
+/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_link_script CMakeFiles/myProject,.dir/link.txt --verbose=
+make[2]: Leaving directory `/Users/hardpro/Documents/cplusplusTuto'
+/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_echo_color --switch= --progress-dir=/Users/hardpro/Documents/cplusplusTuto/CMakeFiles --progress-num=1,2 "Built target myProject,"
+make[1]: Leaving directory `/Users/hardpro/Documents/cplusplusTuto'
+/usr/local/Cellar/cmake/3.23.2/bin/cmake -E cmake_progress_start /Users/hardpro/Documents/cplusplusTuto/CMakeFiles 0
+make: Leaving directory `/Users/hardpro/Documents/cplusplusTuto'
+ 
